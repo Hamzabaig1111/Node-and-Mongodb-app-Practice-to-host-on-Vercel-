@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Connect to MongoDB to connect with live Mongodb
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect(mongodb+srv://hamzabaig1111:Hamza%40264351@vercel.lgwsg0c.mongodb.net/?retryWrites=true&w=majority&appName=vercel, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
